@@ -16,6 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/attempts")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "*")
 public class AttemptController {
 
     private final QuizAttemptService attemptService;
